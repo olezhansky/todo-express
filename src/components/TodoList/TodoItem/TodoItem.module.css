@@ -1,0 +1,35 @@
+.TodoItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.TodoItemMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.Button {
+    cursor: pointer;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+}
+.TodoItemDate {
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+}
+.TodoItemMainContent {
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    width: 400px;
+}
+.Text {
+    max-width: 100%;
+}
+.Done {
+  text-decoration: line-through;
+}
